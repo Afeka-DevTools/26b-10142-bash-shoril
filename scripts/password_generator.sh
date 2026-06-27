@@ -1,4 +1,4 @@
-#!/bi/bash
+#!/bin/bash
 
 charset="a-zA-Z0-9!@#$&"
 password=""
