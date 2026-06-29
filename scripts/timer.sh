@@ -6,6 +6,24 @@ hours=$(echo $time | cut -d: -f1)
 minutes=$(echo $time | cut -d: -f2)
 seconds=$(echo $time | cut -d: -f3)
 
+
+if [ "$hours" -ge 100 ]; then
+    echo "Error! wrong input"
+    echo "Hours must be between 0-99"
+    exit 1
+fi
+if [ "$minutes" -ge 60 ]; then
+    echo "Error! wrong input"
+    echo "Minutes must be between 0-59"
+    exit 1
+fi
+if [ "$seconds" -ge 60 ]; then
+    echo "Error! wrong input"
+    echo "Seconds must be between 0-59"
+    exit 1
+fi
+
+
 : ${hours:=0}
 : ${minutes:=0}
 : ${seconds:=0}
