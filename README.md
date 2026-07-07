@@ -87,6 +87,9 @@ chmod +x compare_files.sh
 
 הרצת הסקריפט (אפשרות א' - העברת נתיבי הקבצים בשורת הפקודה):
 ./compare_files.sh [file1] [file2]
+
+
+הערה - השתמשתי (אור) בgemini, הקישור לשיחה: https://share.gemini.google/tWWkwI5I8ikk
 דוגמה: ./compare_files.sh text1.txt text2.txt
 
 הרצת הסקריפט (אפשרות ב' - הרצה ללא קלט מראש, הסקריפט יבקש להקליד):
